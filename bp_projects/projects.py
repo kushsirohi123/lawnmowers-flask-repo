@@ -10,7 +10,7 @@ def portfolio():
     return render_template("portfolio.html")
 
 # connects /kangaroos path to render kangaroos.html
-@app_projects.route('/kaiden/')
+@app_projects.route('/KaidenTheKangaroo/')
 def kaiden():
     return render_template("kaiden.html")
 
