@@ -18,6 +18,6 @@ def kaiden():
 def theo():
     return render_template("theo.html")
 
-@app_projects.route('/hawkers/')
-def hawkers():
-    return render_template("hawkers.html")
+@app_projects.route('/Mani the Mandrill/')
+def mani():
+    return render_template("mani.html")
